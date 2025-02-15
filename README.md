@@ -30,9 +30,14 @@ Program, her mahalle için belirlenen kriterleri ağırlıklandırır ve Softmax
 ## 🖥️ **Örnek Çıktı**
 
 Kırklareli'nin mahalleleri için toplu taşıma hattı uygunluk oranları (Softmax sonuçları):
+
 Karakaş: 0.423456
+
 İstasyon: 0.251234
+
 Demirtaş: 0.325310
+
+
 
 Önerilen toplu taşıma güzergahı (Softmax'e göre en uygun sırayla):
 1. Karakaş (Uygunluk: 0.423456)
@@ -48,9 +53,7 @@ Program, mahallelerin uygunluk skorlarını hesaplamak için Softmax algoritmas�
 - Softmax fonksiyonuyla bu değerlere 0 ile 1 arasında oranlar atanır.
 - Mahalleler, bu oranlara göre azalan sıralamada gösterilir.
 
- 🔍 **Softmax Formülü**
 
-\[ S_i = \frac{e^{x_i}}{\sum_{j=1}^{n} e^{x_j}} \]
 
  ⚠️ **Hata Durumları**
 
