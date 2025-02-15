@@ -60,5 +60,9 @@ Program, mahallelerin uygunluk skorlarını hesaplamak için Softmax algoritmas�
 - Bellek tahsis hatası durumunda program uyarı verir ve işlemi sonlandırır.
 
 
+
+
+
+
 🚀 İyi çalışmalar! 😊
 
